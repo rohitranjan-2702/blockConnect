@@ -1,0 +1,65 @@
+.feedPostContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: rgba(30, 30, 30, 0.9);
+  border: 1px solid black;
+  border-radius: 10px;
+  padding: 16px;
+  margin-bottom: 16px;
+  width: 100%;
+  gap: 16px;
+  text-align: center;
+}
+
+.feedPostHeader {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 12px;
+}
+
+.feedPostProfilePicture {
+  width: 48px;
+  height: 48px;
+  border-radius: 50%;
+  border: 1px solid white;
+}
+
+.feedPostProfileName {
+  font-size: 16px;
+  font-weight: 600;
+  color: azure;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif ;
+}
+
+.feedPostContentImage {
+  height: 256px;
+}
+
+.feedPostContentTitle {
+  font-size: 24px;
+  font-weight: 600;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: beige;
+  
+}
+
+.feedPostContentDescription {
+  font-size: 16px;
+  font-weight: 200;
+  color: aliceblue;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  font-family: 'Courier New', Courier, monospace;
+}
+
+.feedPostFooter {
+  display: flex;
+  flex-direction: row;
+  gap: 16px;
+  color: burlywood;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
